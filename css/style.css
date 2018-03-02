@@ -1,0 +1,135 @@
+/*-------------------MENU----------------------*/
+
+#menu {
+    background-color: black;
+    opacity: 0.8;
+
+}
+
+#headline {
+    display: inline-block;
+    color: #80b9e2;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 7%;
+    margin:auto;
+
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size: 250%;
+}
+
+.flag {
+    display: inline-block;
+    position: relative;
+    float: right;
+    margin: 1%;
+}
+
+nav div {
+
+    width: 40px;
+    height: 7px;
+    background-color: #80b9e2;
+    margin: 7px;
+    margin-left: 20px;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    font-family: 'Titillium Web', sans-serif;
+
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    border: solid;
+    border-color: #80b9e2;
+
+
+}
+
+.dropdown:hover .dropdown-content, .dropdown:focus .dropdown-content, dropdown:active .dropdown-content {
+    display: block;
+
+}
+
+a {
+    text-decoration: none;
+    color: #80b9e2;
+}
+
+
+/*------------------BODY-----------------------*/
+
+.click {
+    display: block;
+    align-content: center;
+    height: auto;
+    min-width: inherit;
+    margin:auto;
+    margin-top: 5%;
+   
+    
+}
+h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    min-width:inherit;
+    
+}
+
+h2{
+    text-transform: uppercase;
+}
+
+/*STYLE AF BILLEDERNE*/
+.tarteletter {
+    width: 255px;
+    height: 255px;
+    border-radius: 50%;
+    }
+
+.bollerikarry{
+     width: 255px;
+    height: 255px;
+    border-radius: 50%;
+    }
+
+.morbradgryde {
+     width: 255px;
+    height: 255px;
+    border-radius: 50%;
+    }
+
+article {
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    margin-left:20%;
+    margin-right:20%;
+}
+#mail{
+    text-decoration: none;
+    color: black;
+    
+}
+body {
+    position: center;
+    background-size: cover;
+    background-image: url(../images/background1.jpg);
+}
+
+h1, h2, article {
+    color: #272727
+}

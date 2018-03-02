@@ -125,6 +125,7 @@ article {
 }
 body {
     position: center;
+    width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(../images/background1.jpg);

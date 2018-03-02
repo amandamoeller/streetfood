@@ -7,10 +7,10 @@
 }
 
 #headline {
-    display: inline-block !important;
+    display: inline-block;
     color: #80b9e2;
     text-transform: uppercase;
-    text-align: center !important;
+    text-align: center;
     padding: 7%;
     margin:auto;
 

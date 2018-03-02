@@ -1,18 +1,27 @@
 /*-------------------MENU----------------------*/
-
-.menu {
-    background-color: black;
+.top {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 250px;
+  background-color: #111;
+  text-align: center;
     opacity: 0.8;
-
+    left:0px;
+    font-family: 'Titillium Web', sans-serif;
+    text-decoration: none;
+    color: #80b9e2;
 }
-
+.topcontainer{
+  
+  width: 100%;
+}
 #headline {
     display: inline-block;
     color: #80b9e2;
     text-transform: uppercase;
     text-align: center;
     padding: 7%;
-    margin:auto;
 
     font-family: 'Titillium Web', sans-serif;
     font-weight: bold;
@@ -33,7 +42,7 @@ nav div {
     height: 7px;
     background-color: #80b9e2;
     margin: 7px;
-    margin-left: 20px;
+    margin-left: -150px;
 
 }
 
@@ -80,8 +89,18 @@ a {
     min-width: inherit;
     margin:auto;
     margin-top: 5%;
+    
    
     
+}
+.toppic {
+     display: block;
+    align-content: center;
+    height: auto;
+    min-width: inherit;
+    margin:auto;
+    margin-top: 300px;
+    margin-bottom: 15%;
 }
 
 .bottom {

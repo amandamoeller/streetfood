@@ -1,6 +1,6 @@
 /*-------------------MENU----------------------*/
 
-#menu {
+.menu {
     background-color: black;
     opacity: 0.8;
 
@@ -95,7 +95,6 @@ h2{
     text-transform: uppercase;
 }
 
-/*STYLE AF BILLEDERNE*/
 .madbilleder {
     width: 255px;
     height: 255px;
@@ -117,6 +116,7 @@ article {
 body {
     position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     background-image: url(../images/background1.jpg);
 }
 

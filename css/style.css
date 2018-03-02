@@ -7,16 +7,17 @@
 }
 
 #headline {
-    display: inline-block;
+    display: inline-block !important;
     color: #80b9e2;
     text-transform: uppercase;
-    text-align: center;
+    text-align: center !important;
     padding: 7%;
     margin:auto;
 
     font-family: 'Titillium Web', sans-serif;
     font-weight: bold;
     font-size: 250%;
+
 }
 
 .flag {
@@ -95,23 +96,12 @@ h2{
 }
 
 /*STYLE AF BILLEDERNE*/
-.tarteletter {
+.madbilleder {
     width: 255px;
     height: 255px;
     border-radius: 50%;
     }
 
-.bollerikarry{
-     width: 255px;
-    height: 255px;
-    border-radius: 50%;
-    }
-
-.morbradgryde {
-     width: 255px;
-    height: 255px;
-    border-radius: 50%;
-    }
 
 article {
     text-align: center;

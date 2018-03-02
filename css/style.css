@@ -82,6 +82,16 @@ a {
    
     
 }
+
+.bottom {
+     display: block;
+    align-content: center;
+    height: auto;
+    min-width: inherit;
+    margin:auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 h1 {
     text-transform: uppercase;
     font-size: 40px;
@@ -122,4 +132,29 @@ body {
 
 h1, h2, article {
     color: #272727
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 150px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #111;
+  text-align: center;
+    opacity: 0.8;
+}
+
+.container{
+  margin-top: 50px;
+  color: #fff;
+  width: 100%;
 }
